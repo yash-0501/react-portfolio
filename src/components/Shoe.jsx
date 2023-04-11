@@ -12,7 +12,7 @@ export default function Shoe({ color, ...props }) {
     const materialClick = (e)=>{
         setshoeColor(random_hex_color_code())
     } 
-  const { nodes, materials } = useGLTF("/shoe.gltf");
+  const { nodes, materials } = useGLTF("shoe.gltf");
   return (
     <group {...props} dispose={null}>
       <mesh
@@ -79,4 +79,4 @@ export default function Shoe({ color, ...props }) {
   );
 }
 
-useGLTF.preload("/shoe.gltf");
+useGLTF.preload("shoe.gltf");

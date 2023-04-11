@@ -26,7 +26,7 @@ const MobileMapChart = () => {
     
   >
     <Geographies
-      geography="/features.json"
+      geography="features.json"
       fill="#2C065D"
       stroke="#FFFFFF"
       strokeWidth={0.5}

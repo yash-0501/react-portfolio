@@ -11,7 +11,7 @@ import React, { useRef } from 'react'
 import { useGLTF } from '@react-three/drei'
 
 export function SmDraco(props) {
-  const { nodes, materials } = useGLTF('/smDraco-transformed.glb')
+  const { nodes, materials } = useGLTF('smDraco-transformed.glb')
   return (
     <group {...props} dispose={null}>
       <group position={[0.16, 4.91, 3.57]} rotation={[0, Math.PI / 2, 0]} scale={0.24}>
@@ -68,4 +68,4 @@ export function SmDraco(props) {
   )
 }
 
-useGLTF.preload('/smDraco-transformed.glb')
+useGLTF.preload('smDraco-transformed.glb')

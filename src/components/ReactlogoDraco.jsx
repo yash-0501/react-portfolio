@@ -11,7 +11,7 @@ import React, { useRef } from 'react'
 import { GradientTexture, useGLTF } from '@react-three/drei'
 
 export function ReactlogoDraco(props) {
-  const { nodes, materials } = useGLTF('/reactlogoDraco-transformed.glb')
+  const { nodes, materials } = useGLTF('reactlogoDraco-transformed.glb')
   return (
     <group {...props} dispose={null}>
       <group scale={0.01}>
@@ -29,4 +29,4 @@ export function ReactlogoDraco(props) {
   )
 }
 
-useGLTF.preload('/reactlogoDraco-transformed.glb')
+useGLTF.preload('reactlogoDraco-transformed.glb')

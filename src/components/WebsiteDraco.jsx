@@ -11,7 +11,7 @@ import React, { useRef } from 'react'
 import { useGLTF } from '@react-three/drei'
 
 export function WebsiteDraco(props) {
-  const { nodes, materials } = useGLTF('/websiteDraco-transformed.glb')
+  const { nodes, materials } = useGLTF('websiteDraco-transformed.glb')
   return (
     <group {...props} dispose={null}>
       <group position={[-0.93, 0, -0.31]}>
@@ -24,4 +24,4 @@ export function WebsiteDraco(props) {
   )
 }
 
-useGLTF.preload('/websiteDraco-transformed.glb')
+useGLTF.preload('websiteDraco-transformed.glb')

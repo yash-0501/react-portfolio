@@ -37,4 +37,4 @@ export function ShoeDraco(props) {
   )
 }
 
-useGLTF.preload('/shoeDraco-transformed.glb')
+useGLTF.preload('shoeDraco-transformed.glb')
