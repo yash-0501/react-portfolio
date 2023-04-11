@@ -1,6 +1,6 @@
 {
   "name": "react-portfolio",
-  "homepage": "https://yash-0501.github.io/react-portfolio",
+  "homepage": "https://yash-0501.github.io/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -24,6 +24,7 @@
     "react-simple-maps": "^3.0.0",
     "react-spring": "^9.7.1",
     "three": "^0.151.3",
+    "vite": "^4.2.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
