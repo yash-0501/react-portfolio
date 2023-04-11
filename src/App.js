@@ -4,7 +4,6 @@ import { Box } from "@mui/material";
 import Landing from "./components/Landing/Landing";
 import Projects from "./components/Projects/Projects";
 import Contact from "./components/Contact/Contact";
-import Test from "./components/About/Hello";
 import "./App.css";
 
 function App() {
