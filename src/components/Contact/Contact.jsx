@@ -14,7 +14,6 @@ const [success,setSuccess] = useState(null)
 const ref = useRef()
 
 const handleSubmit = e =>{
-  alert("clicked")
   e.preventDefault();
 
   emailjs.sendForm('service_ysitj1d', 'template_ze7a6ym', ref.current, '_P3uf8mSqFORlIqb0')

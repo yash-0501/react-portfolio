@@ -56,6 +56,8 @@ const Navbar = () => {
             </IconButton>
             <Button size="small" variant="contained" disableRipple disableElevation 
             disableFocusRipple
+            href='YASH_AGARWAL_412.pdf'
+            target='_blank'
             sx={{
                 
                 backgroundColor:'#da4ea2',
