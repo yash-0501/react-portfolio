@@ -1,0 +1,12 @@
+.nav-link{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .nav-link {
+        display: none;
+    }
+  }

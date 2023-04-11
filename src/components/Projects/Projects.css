@@ -1,0 +1,49 @@
+.container{
+    height:100vh;
+    scroll-snap-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-project{
+    height: 100vh;
+    flex:1;
+    display: flex;
+    align-items: center;
+    
+}
+
+@media screen and (max-width: 768px){
+    .left-project{
+        padding: 20px;
+        justify-content: center;
+    }
+}
+
+.right-project{
+    height: 100vh;
+    flex:1;
+    display: flex;
+    align-items: center;  
+
+}
+
+.list{
+    display: flex;
+    flex-direction: column;   
+    gap:20px; 
+}
+
+.list-item-text {
+    font-size: 100px;
+    font-weight: bold;
+    cursor: pointer;
+    color: transparent;
+    -webkit-text-stroke: 1px white;
+}
+
+@keyframes moveText{
+    to{
+        width: 100%;
+    }
+}

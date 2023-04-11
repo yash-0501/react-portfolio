@@ -1,0 +1,30 @@
+.left-contact{
+    flex:1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.right-contact{
+    flex:1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.map{
+    width: 100%;
+    height: 100vh;
+}
+
+@media screen and (max-width: 768px) {
+   .left-contact{
+    justify-content: center;
+   } 
+  }
+
+  .svg{
+    vertical-align: middle;
+  }
